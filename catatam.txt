@@ -1,0 +1,17 @@
+yang harus saya lakukan:
+1. EDA dengan PCA 
+
+4800 non stroke
+250 stroke
+
+4800 -> 500
+
+480 480 480 dst
+
+stroke
+testing = 50 training = 200 + smote -> 480/300
+1. 0,8
+2. 0,7
+
+best params = 'max_depth': 50, 'max_features': 0.5397139324208629, 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 187
+best params = 'max_depth': 48, 'max_features': 0.7305593001592294, 'min_samples_leaf': 18, 'min_samples_split': 9, 'n_estimators': 82
