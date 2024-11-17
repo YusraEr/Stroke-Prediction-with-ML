@@ -1,17 +1,51 @@
-yang harus saya lakukan:
-1. EDA dengan PCA 
+Yang harus saya lakukan:
+1. terapkan parameter yang sama dalam model RF di percobaan yang pertama
+2. bandingkan hasil dari keduanya
 
-4800 non stroke
-250 stroke
 
-4800 -> 500
+to do on ppt:
+1. environment specification
+CPU = AMD Ryzen 3 7320U
+RAM = 8 GB
+GPU = AMD Radeon
+DISK = 477 GB
+--
+pandas
+numpy
+scikit-learn
+imblearn
+matplotlib
+seaborn
 
-480 480 480 dst
+2. Model testing & evaluation
+- classification report
+- confusion matrix
+model perbandingan
+- Random Forest With smote
+- Random Forest Without smote
+- Random Forest With smote + tunning
 
-stroke
-testing = 50 training = 200 + smote -> 480/300
-1. 0,8
-2. 0,7
+- SVM With smote
+- SVM Without smote
+- SVM With smote + tunning
 
-best params = 'max_depth': 50, 'max_features': 0.5397139324208629, 'min_samples_leaf': 1, 'min_samples_split': 3, 'n_estimators': 187
-best params = 'max_depth': 48, 'max_features': 0.7305593001592294, 'min_samples_leaf': 18, 'min_samples_split': 9, 'n_estimators': 82
+Model Evaluation:
+Inference time :
+RF
+RFS
+RFST
+
+SVMF
+SVMFS
+SVMFST
+
+
+bagaimana comparenya?
+non k-fold cross validation
+- non smote - smote
+k-fold cross validation
+- smote - optimalization
+
+PR : 
+- buat grafik before after smote and undersampling
+buat visualisasi ditribusi data
