@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  27 NOV 2024 18:51
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  27 NOV 2024 21:06
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -207,7 +207,7 @@ Package: array 2024/06/14 v2.6d Tabular extension package (FMi)
 \backup@length=\skip63
 \ar@cellbox=\box101
 )
-LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 52.
+LaTeX Font Info:    Trying to load font information for OT1+ptm on input line 53.
  (C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\ot1ptm.fd
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 ) (C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
@@ -217,20 +217,20 @@ File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
 ) (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 52.
-LaTeX Font Info:    ... okay on input line 52.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 53.
+LaTeX Font Info:    ... okay on input line 53.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -289,47 +289,52 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 59.
+(Font)              <7> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 59.
+(Font)              <5> on input line 60.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 61.
+(Font)              <9> on input line 62.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 61.
+(Font)              <6> on input line 62.
 <example-image.pdf, id=1, 321.2pt x 240.9pt>
 File: example-image.pdf Graphic file (type pdf)
 <use example-image.pdf>
-Package pdftex.def Info: example-image.pdf  used on input line 122.
+Package pdftex.def Info: example-image.pdf  used on input line 147.
 (pdftex.def)             Requested size: 222.62206pt x 166.97104pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 132.
-
-
-
+(Font)              <8> on input line 157.
+ (main.bbl
 Overfull \hbox (25.23949pt too wide) has occurred while \output is active
  [][]| 
  []
 
 [1
 
-{C:/Users/yusra/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.pdf>] (main.aux)
+{C:/Users/yusra/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc} <C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.pdf>])
+
+
+Overfull \hbox (25.23949pt too wide) has occurred while \output is active
+ [][]| 
+ []
+
+[2] (main.aux)
  ***********
 LaTeX2e <2024-06-01> patch level 2
 L3 programming layer <2024-08-30>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 4601 strings out of 473899
- 79005 string characters out of 5726500
- 475593 words of memory out of 5000000
- 27431 multiletter control sequences out of 15000+600000
+ 4606 strings out of 473899
+ 79147 string characters out of 5726500
+ 479604 words of memory out of 5000000
+ 27433 multiletter control sequences out of 15000+600000
  575396 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,11n,65p,1247b,492s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 57i,11n,65p,1247b,497s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (1 page, 113624 bytes).
+Output written on main.pdf (2 pages, 117500 bytes).
 PDF statistics:
- 55 PDF objects out of 1000 (max. 8388607)
+ 58 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 

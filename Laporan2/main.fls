@@ -101,6 +101,9 @@ INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy8.tfm
+INPUT .\main.bbl
+INPUT .\main.bbl
+INPUT main.bbl
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\vf\adobe\times\ptmr7t.vf
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr8r.tfm
 INPUT C:\Users\yusra\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map

@@ -10,6 +10,7 @@
 \usepackage{float}       % For better figure placement
 \usepackage{fancyhdr}    % For custom headers and footers
 \usepackage{array}
+\bibliographystyle{ieeetr}
 
 % Configure table caption style
 \captionsetup[table]{font=small,skip=3pt}
@@ -68,8 +69,7 @@
 
 {\fontsize{10}{12}\selectfont\noindent\textbf{\textit{Abstrak}}}
 
-
-\noindent{\fontsize{9}{11}\selectfont\itshape
+\noindent{\fontsize{9}{11}\selectfont\itshape%
     Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh dunia, dengan risiko yang meningkat seiring bertambahnya usia serta adanya faktor risiko seperti hipertensi dan diabetes. Tujuan penelitian ini adalah mengembangkan model prediksi dini dan akurat untuk stroke guna memungkinkan intervensi perawatan kesehatan preventif yang efektif. Studi ini menggunakan algoritma Random Forest dan Support Vector Machine (SVM). Karena ketidakseimbangan pada dataset, teknik Synthetic Minority Oversampling Technique (SMOTE) diterapkan untuk meningkatkan representasi data minoritas. Model dioptimalkan melalui penyetelan hiperparameter menggunakan Bayesian Optimization. Evaluasi model dilakukan dengan metrik akurasi, precision, recall, dan F1-score, dengan validasi silang untuk memastikan keandalan pada data yang belum terlihat. Hasil eksperimen menunjukkan bahwa algoritma SVM dengan SMOTE dan optimasi Bayesian mencapai akurasi tertinggi. Temuan ini menunjukkan bahwa model pembelajaran mesin yang dioptimalkan dapat memberikan kontribusi signifikan dalam prediksi dini stroke dan mendukung pengambilan keputusan dalam sistem perawatan kesehatan preventif.
     \par}
 
@@ -83,8 +83,33 @@
     \sloppy % Justify text alignment
 
     \section{Introduction}
-    \subsection{Backgorund}
-    
+    \subsection{Latar Belakang}
+    Stroke merupakan masalah kesehatan global yang serius, menempati posisi kedua
+    sebagai penyebab kematian tertinggi dan posisi ketiga sebagai penyebab
+    kecacatan di dunia. Menurut data WHO, satu dari empat orang berisiko mengalami
+    stroke dalam masa hidupnya, dengan 70\% kasus terjadi di negara-negara
+    berpenghasilan rendah dan menengah\cite{who2024stroke}. Kompleksitas faktor risiko
+    stroke yang meliputi tekanan darah tinggi, kolesterol, diabetes, obesitas, dan
+    gaya hidup, menjadikan prediksi stroke sebagai tantangan yang signifikan dalam
+    dunia kesehatan.\cite{emon2020performance}
+
+    Prediksi dini stroke menggunakan metode konvensional seringkali terbatas dalam
+    kemampuannya mengintegrasikan berbagai faktor risiko secara simultan.
+    Perkembangan pembelajaran mesin membuka peluang baru dalam meningkatkan akurasi
+    prediksi stroke. Dengan kemampuannya menganalisis data kompleks dalam jumlah
+    besar, teknik pembelajaran mesin dapat mengidentifikasi pola-pola tersembunyi
+    dan korelasi antar berbagai faktor risiko yang sulit dideteksi melalui metode
+    konvensional.
+
+    Penelitian ini mengusulkan pendekatan inovatif dengan mengombinasikan algoritma
+    Random Forest dan Support Vector Machine (SVM) untuk prediksi stroke. Kedua
+    algoritma ini dipilih karena kemampuannya dalam menangani data kesehatan yang
+    kompleks dan menghasilkan model prediksi yang akurat. Untuk mengatasi masalah
+    ketidakseimbangan data yang umum dalam kasus medis, diterapkan teknik SMOTE
+    (Synthetic Minority Oversampling Technique). Selanjutnya, optimasi Bayesian
+    digunakan untuk meningkatkan performa model melalui penyetelan hiperparameter
+    yang optimal. Pendekatan komprehensif ini diharapkan dapat menghasilkan sistem
+    prediksi stroke yang lebih andal dan aplikatif dalam praktik klinis.
 
     \subsection{Literature Review}
     % Brief review of related research goes here...
@@ -120,7 +145,7 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=\columnwidth]{example-image}
-        \caption{A single-column figure example.}
+        \caption{A single-column figure example.}%
         \label{fig:single-col}
     \end{figure}
 
@@ -149,12 +174,7 @@
     \section*{Acknowledgements}
     % Acknowledgements content goes here...
 
-    \begin{thebibliography}{9}
-        \bibitem{ref1} % Reference 1
-        \bibitem{ref2} % Reference 2
-        \bibitem{ref3} % Reference 3
-        % Add more references as needed
-    \end{thebibliography}
+    \bibliography{references}
 
 \end{multicols}
 \end{document}

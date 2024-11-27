@@ -1,6 +1,14 @@
 # Fdb version 4
-["pdflatex"] 1732704708.76781 "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" "main.pdf" "main" 1732704710.29262 0
-  "C:/Users/yusra/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732689690 756314 6541d77a73c38809ada1e19d015e1230 ""
+["bibtex main"] 1732712807.04803 "main.aux" "main.bbl" "main" 1732712810.37628 0
+  "./references.bib" 1732712806 867 e94e5204c9c675012cd054da446d91e1 ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
+  "main.aux" 1732712808 1573 1b3943accc9d66808fd6d57e10d33921 "pdflatex"
+  (generated)
+  "main.bbl"
+  "main.blg"
+  (rewritten before read)
+["pdflatex"] 1732712807.67018 "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" "main.pdf" "main" 1732712810.3771 0
+  "C:/Users/yusra/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732712195 756314 6541d77a73c38809ada1e19d015e1230 ""
   "C:/Users/yusra/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727686155 11948197 32e4fbd623018819d9c7102ece80cfba ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmb7t.tfm" 1136743454 2172 fd0c924230362ff848a33632ed45dc23 ""
@@ -66,9 +74,10 @@
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
-  "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" 1732704705 6052 2cf93a161ecc2645b6400a7bb3e9bfa0 ""
-  "main.aux" 1732704709 1468 d9e00185182e6262ba5c4245c1816cc0 "pdflatex"
-  "main.tex" 1732704705 6052 2cf93a161ecc2645b6400a7bb3e9bfa0 ""
+  "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" 1732712702 7768 df3c80b61e0f8139a25c1e058b011e3a ""
+  "main.aux" 1732712808 1573 1b3943accc9d66808fd6d57e10d33921 "pdflatex"
+  "main.bbl" 1732712807 597 3a5bb95f7932efc8ea804ca41e863792 "bibtex main"
+  "main.tex" 1732712702 7768 df3c80b61e0f8139a25c1e058b011e3a ""
   (generated)
   "main.aux"
   "main.log"
