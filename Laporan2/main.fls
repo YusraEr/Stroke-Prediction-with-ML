@@ -97,11 +97,6 @@ INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.p
 OUTPUT main.pdf
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.pdf
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.tex
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.tex
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.pdf
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\tex\latex\mwe\example-image.pdf
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\adobe\times\ptmr7t.tfm
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr8.tfm
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi8.tfm
@@ -135,8 +130,6 @@ INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr6.pfb
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr7.pfb
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
-INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy6.pfb
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss17.pfb
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\public\lm\lmss17.pfb
 INPUT C:\Users\yusra\AppData\Local\Programs\MiKTeX\fonts\type1\urw\times\utmb8a.pfb
