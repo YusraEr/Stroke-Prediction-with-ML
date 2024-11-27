@@ -1,7 +1,7 @@
 \begin{thebibliography}{1}
 
 \bibitem{who2024stroke}
-{World Health Organization} and {Dr Poonam Khetrapal Singh, WHO Regional
+{World Health Organization} and {Dr. Poonam Khetrapal Singh, WHO Regional
   Director for South-East Asia}, ``World stroke day,'' 2021.
 \newblock Accessed: 27 November 2024.
 
@@ -10,5 +10,9 @@ M.~U. Emon, M.~S. Keya, T.~I. Meghla, M.~M. Rahman, M.~S. Al~Mamun, and M.~S.
   Kaiser, ``Performance analysis of machine learning approaches in stroke
   prediction,'' in {\em 2020 4th international conference on electronics,
   communication and aerospace technology (ICECA)}, pp.~1464--1469, IEEE, 2020.
+
+\bibitem{kaggleStrokePredictionDataset}
+F.~Soriano, ``Stroke prediction dataset,'' 2024.
+\newblock Accessed: 15 Oktober 2024.
 
 \end{thebibliography}

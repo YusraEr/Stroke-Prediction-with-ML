@@ -3,13 +3,16 @@
 \usepackage{geometry}
 \usepackage{multicol}
 \usepackage{setspace}
-\usepackage{parskip} % Add package for paragraph spacing
-\usepackage{booktabs}  % For professional tables
-\usepackage{caption}   % For caption formatting
-\usepackage{graphicx}    % For including images
-\usepackage{float}       % For better figure placement
-\usepackage{fancyhdr}    % For custom headers and footers
+\usepackage{parskip} 
+\usepackage{booktabs} 
+\usepackage{caption}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{fancyhdr}   
 \usepackage{array}
+\usepackage{amsmath} 
+\usepackage{booktabs}
+\usepackage{hhline}
 \bibliographystyle{ieeetr}
 
 % Configure table caption style
@@ -70,7 +73,7 @@
 {\fontsize{10}{12}\selectfont\noindent\textbf{\textit{Abstrak}}}
 
 \noindent{\fontsize{9}{11}\selectfont\itshape%
-    Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh dunia, dengan risiko yang meningkat seiring bertambahnya usia serta adanya faktor risiko seperti hipertensi dan diabetes. Tujuan penelitian ini adalah mengembangkan model prediksi dini dan akurat untuk stroke guna memungkinkan intervensi perawatan kesehatan preventif yang efektif. Studi ini menggunakan algoritma Random Forest dan Support Vector Machine (SVM). Karena ketidakseimbangan pada dataset, teknik Synthetic Minority Oversampling Technique (SMOTE) diterapkan untuk meningkatkan representasi data minoritas. Model dioptimalkan melalui penyetelan hiperparameter menggunakan Bayesian Optimization. Evaluasi model dilakukan dengan metrik akurasi, precision, recall, dan F1-score, dengan validasi silang untuk memastikan keandalan pada data yang belum terlihat. Hasil eksperimen menunjukkan bahwa algoritma SVM dengan SMOTE dan optimasi Bayesian mencapai akurasi tertinggi. Temuan ini menunjukkan bahwa model pembelajaran mesin yang dioptimalkan dapat memberikan kontribusi signifikan dalam prediksi dini stroke dan mendukung pengambilan keputusan dalam sistem perawatan kesehatan preventif.
+    Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh dunia, dengan risiko yang meningkat seiring dengan bertambahnya usia serta adanya faktor risiko seperti hipertensi dan diabetes. Tujuan penelitian ini adalah mengembangkan model prediksi dini yang akurat untuk stroke sehingga memungkinkan intervensi perawatan kesehatan preventif yang efektif. Penelitian ini menggunakan algoritma Random Forest dan Support Vector Machine (SVM). Karena ketidakseimbangan pada himpunan data, teknik Synthetic Minority Oversampling Technique (SMOTE) diterapkan untuk meningkatkan representasi data minoritas. Model dioptimalkan melalui penyesuaian hiperparameter menggunakan Optimasi Bayesian. Evaluasi model dilakukan dengan metrik akurasi, presisi, sensitivitas, dan skor-F1, dengan validasi silang untuk memastikan keandalan pada data yang belum terlihat. Hasil eksperimen menunjukkan bahwa algoritma SVM dengan SMOTE dan Optimasi Bayesian mencapai akurasi tertinggi. Temuan ini menunjukkan bahwa model pembelajaran mesin yang dioptimalkan dapat memberikan kontribusi signifikan dalam prediksi dini stroke dan mendukung pengambilan keputusan dalam sistem perawatan kesehatan preventif.
     \par}
 
 \noindent{\fontsize{9}{11}\selectfont
@@ -80,7 +83,7 @@
 \begin{multicols}{2}
     \setlength{\columnsep}{0.4pt} %
     \raggedcolumns%
-    \sloppy % Justify text alignment
+    \sloppy
 
     \section{Introduction}
     \subsection{Latar Belakang}
@@ -88,10 +91,10 @@
     sebagai penyebab kematian tertinggi dan posisi ketiga sebagai penyebab
     kecacatan di dunia. Menurut data WHO, satu dari empat orang berisiko mengalami
     stroke dalam masa hidupnya, dengan 70\% kasus terjadi di negara-negara
-    berpenghasilan rendah dan menengah\cite{who2024stroke}. Kompleksitas faktor risiko
-    stroke yang meliputi tekanan darah tinggi, kolesterol, diabetes, obesitas, dan
-    gaya hidup, menjadikan prediksi stroke sebagai tantangan yang signifikan dalam
-    dunia kesehatan.\cite{emon2020performance}
+    berpenghasilan rendah dan menengah\cite{who2024stroke}. Kompleksitas faktor
+    risiko stroke yang meliputi tekanan darah tinggi, kolesterol, diabetes,
+    obesitas, dan gaya hidup, menjadikan prediksi stroke sebagai tantangan yang
+    signifikan dalam dunia kesehatan.\cite{emon2020performance}
 
     Prediksi dini stroke menggunakan metode konvensional seringkali terbatas dalam
     kemampuannya mengintegrasikan berbagai faktor risiko secara simultan.
@@ -118,10 +121,93 @@
     % Reason for conducting this research goes here...
 
     \subsection{Research Questions and Objectives}
-    % Research questions and objectives go here...
+    Penelitian ini didasari oleh beberapa pertanyaan penelitian yang berkaitan
+    dengan keefektifan algoritma Random Forest dan Support Vector Machine dalam
+    memprediksi risiko stroke berdasarkan berbagai faktor kesehatan. Selain itu,
+    penelitian ini juga mengkaji sejauh mana penerapan teknik SMOTE dapat
+    meningkatkan kinerja model dalam menangani ketidakseimbangan data pada kasus
+    prediksi stroke, serta bagaimana Optimasi Bayesian dapat memengaruhi kinerja
+    model dalam hal akurasi dan presisi prediksi stroke.
+
+    Berdasarkan pertanyaan penelitian tersebut, penelitian ini bertujuan untuk
+    mengembangkan dan membandingkan model prediksi stroke menggunakan algoritma
+    Random Forest dan Support Vector Machine untuk mengidentifikasi pendekatan yang
+    paling efektif. Penelitian ini juga akan mengevaluasi dampak penerapan SMOTE
+    dalam meningkatkan kualitas prediksi pada kasus dengan sebaran data yang tidak
+    seimbang, serta mengoptimalkan parameter model menggunakan Optimasi Bayesian
+    untuk mencapai kinerja prediksi yang optimal. Tujuan akhir penelitian ini
+    adalah menghasilkan model prediksi stroke yang dapat diterapkan dalam sistem
+    pendukung keputusan klinis untuk deteksi dini risiko stroke.
 
     \section{Research Methods}
-    % Research methods content goes here...
+    \subsection{Dataset Description}
+    Dataset yang digunakan dalam penelitian ini berasal dari \textit{Kaggle Stroke
+        Prediction Dataset}\cite{kaggleStrokePredictionDataset}, yang berisi informasi
+    kesehatan dari 5110 pasien. Dataset ini mencakup berbagai parameter demografis
+    dan faktor risiko kesehatan yang berpotensi terkait dengan kejadian stroke.
+    Data dikumpulkan dari berbagai fasilitas kesehatan dan mencakup informasi
+    seperti usia, jenis kelamin, berbagai penyakit, dan gaya hidup pasien.
+
+    \begin{table}[H]
+        \centering
+        {\fontsize{8}{10}\selectfont
+            \caption{Deskripsi Fitur Dataset Stroke Prediction}
+            \begin{tabular}{>{\raggedright\arraybackslash}p{2cm}>{\raggedright\arraybackslash}p{3cm}>{\raggedright\arraybackslash}p{1.5cm}}
+                \specialrule{0.07em}{0em}{0.06em}
+                \specialrule{0.07em}{0em}{0.4em}
+                \textbf{Fitur}      & \textbf{Deskripsi}                                                                                                       & \textbf{Tipe Data} \\
+                \midrule
+                id                  & Identifier unik setiap pasien                                                                                            & Numerik            \\
+                gender              & Jenis kelamin pasien (\textit{Male}, \textit{Female}, \textit{Other})                                                    & Kategorikal        \\
+                age                 & Usia pasien                                                                                                              & Numerik            \\
+                hypertension        & 0 jika pasien tidak memiliki hipertensi, 1 jika memiliki hipertensi                                                      & Biner              \\
+                heart\_disease      & 0 jika pasien tidak memiliki penyakit jantung, 1 jika memiliki penyakit jantung                                          & Biner              \\
+                ever\_married       & Status pernikahan (\textit{Yes}, \textit{No})                                                                            & Kategorikal        \\
+                work\_type          & Tipe pekerjaan (\textit{children}, \textit{Govt\_job}, \textit{Never\_worked}, \textit{Private}, \textit{Self-employed}) & Kategorikal        \\
+                Residence\_type     & Tipe tempat tinggal (\textit{Rural}, \textit{Urban})                                                                     & Kategorikal        \\
+                avg\_glucose\_level & Level glukosa rata-rata dalam darah (\textit{Average Glucose Level})                                                     & Numerik            \\
+                bmi                 & Body Mass Index                                                                                                          & Numerik            \\
+                smoking\_status     & Status merokok (\textit{formerly smoked}, \textit{never smoked}, \textit{smokes}, \textit{Unknown})                      & Kategorikal        \\
+                stroke              & 1 jika pasien pernah stroke, 0 jika tidak                                                                                & Biner              \\
+                \bottomrule
+            \end{tabular}}
+    \end{table}
+
+    \subsection{Performance Metrics}
+    Dalam evaluasi model klasifikasi stroke, kami menggunakan beberapa metrik
+    performa standar yang diperoleh dari \textit{confusion matrix}.
+
+    \textbf{Accuracy} mengukur proporsi total prediksi yang benar dibandingkan dengan semua kasus.
+    \begin{equation}
+        Accuracy = \frac{TP + TN}{TP + TN + FP + FN}
+    \end{equation}
+
+    \textbf{Precision} mengukur proporsi prediksi positif yang benar-benar positif.
+    \begin{equation}
+        Precision = \frac{TP}{TP + FP}
+    \end{equation}
+
+    \textbf{Recall (Sensitivity)} mengukur proporsi kasus positif yang berhasil diidentifikasi.
+    \begin{equation}
+        Recall = \frac{TP}{TP + FN}
+    \end{equation}
+
+    \textbf{F1-Score} merupakan rata-rata harmonik dari \textit{precision} dan \textit{recall}.
+    \begin{equation}
+        \text{F1-Score} = \frac{2 \times \text{Precision} \times \text{Recall}}{\text{Precision} + \text{Recall}}
+    \end{equation}
+
+    Dalam konteks ini, TP (\textit{True Positive}) adalah jumlah kasus stroke yang
+    diprediksi benar sebagai stroke. TN (\textit{True Negative}) merupakan jumlah
+    kasus non-stroke yang diprediksi benar sebagai non-stroke. FP (\textit{False
+        Positive}) menunjukkan jumlah kasus non-stroke yang salah diprediksi sebagai
+    stroke. FN (\textit{False Negative}) adalah jumlah kasus stroke yang salah
+    diprediksi sebagai non-stroke.
+
+    Pemilihan metrik-metrik ini didasarkan pada karakteristik dataset yang tidak
+    seimbang, sehingga F1-score menjadi sangat penting karena memberikan gambaran
+    yang lebih baik tentang performa model pada kasus yang tidak seimbang
+    dibandingkan dengan \textit{accuracy} saja.
 
     \subsection{Formulas}
     % Example formula

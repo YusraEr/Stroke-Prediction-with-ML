@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1732712807.04803 "main.aux" "main.bbl" "main" 1732712810.37628 0
-  "./references.bib" 1732712806 867 e94e5204c9c675012cd054da446d91e1 ""
+["bibtex main"] 1732717545.76047 "main.aux" "main.bbl" "main" 1732717715.81638 0
+  "./references.bib" 1732717544 1184 33c54c3dc1c6ba8c469db3c4deab5ac7 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "main.aux" 1732712808 1573 1b3943accc9d66808fd6d57e10d33921 "pdflatex"
+  "main.aux" 1732717714 2024 a1688d8f097789483da6656d30775a66 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1732712807.67018 "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" "main.pdf" "main" 1732712810.3771 0
+["pdflatex"] 1732717712.74353 "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" "main.pdf" "main" 1732717715.8172 0
   "C:/Users/yusra/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732712195 756314 6541d77a73c38809ada1e19d015e1230 ""
   "C:/Users/yusra/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727686155 11948197 32e4fbd623018819d9c7102ece80cfba ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -19,6 +19,9 @@
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmr8r.tfm" 1136743454 4408 25b74d011a4c66b7f212c0cc3c90061b ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmri7t.tfm" 1136743454 2288 f478fc8fed18759effb59f3dad7f3084 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/adobe/times/ptmri8r.tfm" 1136743454 4640 532ca3305aad10cc01d769f3f91f1029 ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1233951848 1004 54797486969f23fa377b128694d548df ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1233951848 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/public/amsfonts/cmextra/cmex9.tfm" 1234365220 996 a18840b13b499c08ac2de96a99eda4bc ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi6.tfm" 1136765053 1512 f21f83efb36853c0b70002322c1ab3ad ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi8.tfm" 1136765053 1520 eccf95517727cb11801f4f1aee3a21b4 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/tfm/public/cm/cmmi9.tfm" 1136765053 1524 d89e2d087a9828407a196f428428ef4a ""
@@ -32,6 +35,7 @@
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1247596667 35752 024fb6c41858982481f6968b5fc26508 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1247596667 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1247596667 32762 7fee39e011c23b3589931effd97b9702 ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1247596667 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb" 1256929440 97155 ffb6880a68751002f414154d64548ca3 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb" 1136824548 44729 fea0975e20ec51c992338362f05f1146 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb" 1136824548 44656 0cbca70e0534538582128f6b54593cca ""
@@ -46,6 +50,11 @@
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/generic/iftex/ifvtex.sty" 1643997108 1057 525c2192b5febbd8c1f662c9468335bb ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/generic/ltxcmds/ltxcmds.sty" 1702206890 17865 1a9bd36b4f98178fa551aca822290953 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/00miktex/epstopdf-sys.cfg" 1616067285 584 2a1075dd71571459f59146da9f7502ad ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsbsy.sty" 1718270739 2222 2166a1f7827be30ddc30434e5efcee1b ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsgen.sty" 1718270739 4173 d22509bc0c91281d991b2de7c88720dd ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsmath.sty" 1718270740 88370 47fa7ec33a33125284e7c3c8193c6ce1 ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amsopn.sty" 1718270739 4474 23ca1d3a79a57b405388059456d0a8df ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/amsmath/amstext.sty" 1718270740 2444 71618ea5f2377e33b04fb97afdd0eac2 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/base/article.cls" 1719393830 20144 67a5f8e0f9e445e8ec6834e595cebdc9 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/base/size10.clo" 1719393830 8448 358bf3de18513f057a13bdc6e6770c41 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/booktabs/booktabs.sty" 1579093635 6253 f1cb470c9199e7110a27851508ed7a5c ""
@@ -73,11 +82,12 @@
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/psnfss/times.sty" 1585926771 888 8e0e5c8cca7b18e0400f97f5a2b90a99 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
+  "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/hhline.sty" 1718356376 3831 65e4e98007e15ec862d6c137b7dde598 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
-  "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" 1732712702 7768 df3c80b61e0f8139a25c1e058b011e3a ""
-  "main.aux" 1732712808 1573 1b3943accc9d66808fd6d57e10d33921 "pdflatex"
-  "main.bbl" 1732712807 597 3a5bb95f7932efc8ea804ca41e863792 "bibtex main"
-  "main.tex" 1732712702 7768 df3c80b61e0f8139a25c1e058b011e3a ""
+  "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" 1732717711 13960 588d3f6efa9abf7a10406c8553735a48 ""
+  "main.aux" 1732717714 2024 a1688d8f097789483da6656d30775a66 "pdflatex"
+  "main.bbl" 1732717546 729 ddf07c3b69226d7c2b1333df76603001 "bibtex main"
+  "main.tex" 1732717711 13960 588d3f6efa9abf7a10406c8553735a48 ""
   (generated)
   "main.aux"
   "main.log"
