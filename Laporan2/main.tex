@@ -9,6 +9,7 @@
 \usepackage{graphicx}    % For including images
 \usepackage{float}       % For better figure placement
 \usepackage{fancyhdr}    % For custom headers and footers
+\usepackage{array}
 
 % Configure table caption style
 \captionsetup[table]{font=small,skip=3pt}
@@ -59,7 +60,7 @@
     {\fontsize{9}{11}\selectfont
     \begin{tabular}{c}
         Departemen Matematika, Fakultas Matematika dan Ilmu Pengetahuan Alam, Universitas Hasanuddin, Makassar, Indonesia \\
-        $^1$yusraerlangg@gmail.com, $^{2}$jane.doe@email.com \\
+        $^1$yusraerlangg@gmail.com, $^{2}$jane.doe@email.com                                                              \\
         $^*$Corresponding author
     \end{tabular}}
 \end{center}
@@ -68,8 +69,8 @@
 \vspace{0.3em}
 
 \noindent{\fontsize{9}{11}\selectfont\itshape
-Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh dunia, dengan risiko yang meningkat seiring bertambahnya usia serta adanya faktor risiko seperti hipertensi dan diabetes. Tujuan penelitian ini adalah mengembangkan model prediksi dini dan akurat untuk stroke guna memungkinkan intervensi perawatan kesehatan preventif yang efektif. Studi ini menggunakan algoritma Random Forest dan Support Vector Machine (SVM). Karena ketidakseimbangan pada dataset, teknik Synthetic Minority Oversampling Technique (SMOTE) diterapkan untuk meningkatkan representasi data minoritas. Model dioptimalkan melalui penyetelan hiperparameter menggunakan Bayesian Optimization. Evaluasi model dilakukan dengan metrik akurasi, precision, recall, dan F1-score, dengan validasi silang untuk memastikan keandalan pada data yang belum terlihat. Hasil eksperimen menunjukkan bahwa algoritma SVM dengan SMOTE dan optimasi Bayesian mencapai akurasi tertinggi sebesar 0,726404. Temuan ini menunjukkan bahwa model pembelajaran mesin yang dioptimalkan dapat memberikan kontribusi signifikan dalam prediksi dini stroke dan mendukung pengambilan keputusan dalam sistem perawatan kesehatan preventif.
-\par}
+    Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh dunia, dengan risiko yang meningkat seiring bertambahnya usia serta adanya faktor risiko seperti hipertensi dan diabetes. Tujuan penelitian ini adalah mengembangkan model prediksi dini dan akurat untuk stroke guna memungkinkan intervensi perawatan kesehatan preventif yang efektif. Studi ini menggunakan algoritma Random Forest dan Support Vector Machine (SVM). Karena ketidakseimbangan pada dataset, teknik Synthetic Minority Oversampling Technique (SMOTE) diterapkan untuk meningkatkan representasi data minoritas. Model dioptimalkan melalui penyetelan hiperparameter menggunakan Bayesian Optimization. Evaluasi model dilakukan dengan metrik akurasi, precision, recall, dan F1-score, dengan validasi silang untuk memastikan keandalan pada data yang belum terlihat. Hasil eksperimen menunjukkan bahwa algoritma SVM dengan SMOTE dan optimasi Bayesian mencapai akurasi tertinggi. Temuan ini menunjukkan bahwa model pembelajaran mesin yang dioptimalkan dapat memberikan kontribusi signifikan dalam prediksi dini stroke dan mendukung pengambilan keputusan dalam sistem perawatan kesehatan preventif.
+    \par}
 
 \noindent{\fontsize{9}{11}\selectfont
     \textit{\textbf{Kata kunci:} Prediksi Stroke, pembelajaran mesin, Random Forest, Support Vector Machine, SMOTE, Bayesian Optimization}
@@ -123,7 +124,7 @@ Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh
     \end{figure}
 
     % Use table* to span both columns
-    \begin{table*}[!htb]
+    \begin{table}[H]
         \centering
         {\fontsize{8}{10}\selectfont
             \caption{Dataset characteristics for stroke prediction}
@@ -136,7 +137,7 @@ Stroke merupakan penyebab utama kecacatan jangka panjang dan kematian di seluruh
                 Non-stroke Cases & 4861  & 95.13\%    \\
                 \bottomrule
             \end{tabular}}
-    \end{table*}
+    \end{table}
 
     % \begin{multicols}{2}
     % Results and discussion content goes here...
