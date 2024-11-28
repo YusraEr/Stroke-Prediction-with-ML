@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  27 NOV 2024 22:28
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.9.30)  27 NOV 2024 22:33
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -355,7 +355,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
 Overfull \hbox (25.23949pt too wide) has occurred while \output is active
- [][]| 
+ [][] 
  []
 
 [1
@@ -368,14 +368,14 @@ Package pdftex.def Info: example-image.pdf  used on input line 233.
 (pdftex.def)             Requested size: 222.62206pt x 166.97104pt.
  (main.bbl
 Overfull \hbox (25.23949pt too wide) has occurred while \output is active
- [][]| 
+ [][] 
  []
 
 [2 <C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/mwe/example-image.pdf>])
 
 
 Overfull \hbox (25.23949pt too wide) has occurred while \output is active
- [][]| 
+ [][] 
  []
 
 [3] (main.aux)
@@ -387,13 +387,13 @@ L3 programming layer <2024-08-30>
 Here is how much of TeX's memory you used:
  5345 strings out of 473899
  88911 string characters out of 5726500
- 499379 words of memory out of 5000000
+ 499388 words of memory out of 5000000
  28148 multiletter control sequences out of 15000+600000
  580849 words of font info for 74 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  57i,11n,65p,1270b,514s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main.pdf (3 pages, 138004 bytes).
+Output written on main.pdf (3 pages, 138052 bytes).
 PDF statistics:
  66 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)

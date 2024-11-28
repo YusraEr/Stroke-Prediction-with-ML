@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex main"] 1732717545.76047 "main.aux" "main.bbl" "main" 1732717715.81638 0
+["bibtex main"] 1732717545.76047 "main.aux" "main.bbl" "main" 1732718009.58654 0
   "./references.bib" 1732717544 1184 33c54c3dc1c6ba8c469db3c4deab5ac7 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/bibtex/bst/bibtex/ieeetr.bst" 1291864344 18361 1a00e58565e7f19bf2b3e1bfb82254ae ""
-  "main.aux" 1732717714 2024 a1688d8f097789483da6656d30775a66 "pdflatex"
+  "main.aux" 1732718007 2024 a1688d8f097789483da6656d30775a66 "pdflatex"
   (generated)
   "main.bbl"
   "main.blg"
   (rewritten before read)
-["pdflatex"] 1732717712.74353 "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" "main.pdf" "main" 1732717715.8172 0
+["pdflatex"] 1732718006.20967 "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" "main.pdf" "main" 1732718009.58765 0
   "C:/Users/yusra/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1732712195 756314 6541d77a73c38809ada1e19d015e1230 ""
   "C:/Users/yusra/AppData/Local/MiKTeX/miktex/data/le/pdftex/pdflatex.fmt" 1727686155 11948197 32e4fbd623018819d9c7102ece80cfba ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc" 1458473887 4993 80dc9bab7f31fb78a000ccfed0e27cab ""
@@ -84,10 +84,10 @@
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1718356376 14067 1383bd6ee23ab18ae0e796155404deb7 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/hhline.sty" 1718356376 3831 65e4e98007e15ec862d6c137b7dde598 ""
   "C:/Users/yusra/AppData/Local/Programs/MiKTeX/tex/latex/tools/multicol.sty" 1718356376 32621 00e86c03dbf6e71d7ea7ebac2bd4fcaf ""
-  "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" 1732717711 13960 588d3f6efa9abf7a10406c8553735a48 ""
-  "main.aux" 1732717714 2024 a1688d8f097789483da6656d30775a66 "pdflatex"
+  "d:/Python/datasains/Stroke-Prediction-with-ML/Laporan2/main.tex" 1732718008 13971 1dc6625f815d9a1d58ccc429a3220be2 ""
+  "main.aux" 1732718007 2024 a1688d8f097789483da6656d30775a66 "pdflatex"
   "main.bbl" 1732717546 729 ddf07c3b69226d7c2b1333df76603001 "bibtex main"
-  "main.tex" 1732717711 13960 588d3f6efa9abf7a10406c8553735a48 ""
+  "main.tex" 1732718008 13971 1dc6625f815d9a1d58ccc429a3220be2 ""
   (generated)
   "main.aux"
   "main.log"
