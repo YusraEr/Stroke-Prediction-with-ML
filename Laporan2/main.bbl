@@ -1,18 +1,70 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{who2024stroke}
 {World Health Organization} and {Dr. Poonam Khetrapal Singh, WHO Regional
   Director for South-East Asia}, ``World stroke day,'' 2021.
 \newblock Accessed: 27 November 2024.
 
-\bibitem{emon2020performance}
-M.~U. Emon, M.~S. Keya, T.~I. Meghla, M.~M. Rahman, M.~S. Al~Mamun, and M.~S.
-  Kaiser, ``Performance analysis of machine learning approaches in stroke
-  prediction,'' in {\em 2020 4th international conference on electronics,
-  communication and aerospace technology (ICECA)}, pp.~1464--1469, IEEE, 2020.
+\bibitem{kemenkes2023stroke}
+{Kementerian Kesehatan RI}, ``Laporan nasional {RISKESDAS} 2023,'' technical
+  report, Badan Penelitian dan Pengembangan Kesehatan, Jakarta, Indonesia,
+  2023.
+\newblock Riset Kesehatan Dasar 2023.
+
+\bibitem{boehme2017stroke}
+A.~K. Boehme, C.~Esenwa, and M.~S. Elkind, ``Stroke risk factors, genetics, and
+  prevention,'' {\em Circulation research}, vol.~120, no.~3, pp.~472--495,
+  2017.
+
+\bibitem{strokepreventionstudy2022}
+V.~L. Feigin, M.~Brainin, B.~Norrving, P.~B. Gorelick, M.~Dichgans, W.~Wang,
+  J.~D. Pandian, S.~C. Martins, M.~O. Owolabi, and D.~A. Wood, ``Prevention of
+  stroke: a global perspective,'' {\em The Lancet Neurology}, vol.~21, no.~7,
+  pp.~608--617, 2022.
+
+\bibitem{guhdar2023optimizing}
+M.~Guhdar, A.~I. Melhum, and A.~L. Ibrahim, ``Optimizing accuracy of stroke
+  prediction using logistic regression,'' {\em Journal of Technology and
+  Informatics (JoTI)}, vol.~4, no.~2, pp.~41--47, 2023.
+
+\bibitem{dev2022predictive}
+S.~Dev, H.~Wang, C.~S. Nwosu, N.~Jain, B.~Veeravalli, and D.~John, ``A
+  predictive analytics approach for stroke prediction using machine learning
+  and neural networks,'' {\em Healthcare Analytics}, vol.~2, p.~100032, 2022.
+
+\bibitem{yang2021accurate}
+Y.~Yang, J.~Zheng, Z.~Du, Y.~Li, Y.~Cai, {\em et~al.}, ``Accurate prediction of
+  stroke for hypertensive patients based on medical big data and machine
+  learning algorithms: retrospective study,'' {\em JMIR Medical Informatics},
+  vol.~9, no.~11, p.~e30277, 2021.
+
+\bibitem{zhi2024exploration}
+S.~Zhi, X.~Hu, Y.~Ding, H.~Chen, X.~Li, Y.~Tao, and W.~Li, ``An exploration on
+  the machine-learning-based stroke prediction model,'' {\em Frontiers in
+  Neurology}, vol.~15, p.~1372431, 2024.
+
+\bibitem{azam2020performance}
+M.~S. Azam, M.~Habibullah, and H.~K. Rana, ``Performance analysis of various
+  machine learning approaches in stroke prediction,'' {\em International
+  Journal of Computer Applications}, vol.~175, no.~21, pp.~11--15, 2020.
 
 \bibitem{kaggleStrokePredictionDataset}
 F.~Soriano, ``Stroke prediction dataset,'' 2024.
 \newblock Accessed: 15 Oktober 2024.
+
+\bibitem{zhang2023random}
+H.~Zhang, X.~Wang, and P.~Ma, ``Random forest for high-dimensional data: Recent
+  advances and future directions,'' {\em WIREs Data Mining and Knowledge
+  Discovery}, vol.~13, no.~3, p.~e1472, 2023.
+
+\bibitem{pisner2020support}
+D.~A. Pisner and D.~M. Schnyer, ``Support vector machine,'' in {\em Machine
+  learning}, pp.~101--121, Elsevier, 2020.
+
+\bibitem{bhavsar2021comprehensive}
+K.~A. Bhavsar, A.~Abugabah, J.~Singla, A.~A. AlZubi, A.~K. Bashir, {\em
+  et~al.}, ``A comprehensive review on medical diagnosis using machine
+  learning,'' {\em Computers, Materials and Continua}, vol.~67, no.~2, p.~1997,
+  2021.
 
 \end{thebibliography}
